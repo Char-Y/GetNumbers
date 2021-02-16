@@ -7,11 +7,11 @@
 
 <body>
     <main>
-
+     <div class="Number">
         <h2>Input a number. It will be standardized and reversed.</h2>
 
         <form action="TransformNumber.php" method="post">
-            <div id="Number">
+          
             Please enter a number (format : 999999.9999): 
             <input type="text" name="User_number" /> <br/><br/>
             
@@ -28,9 +28,23 @@
             
             <input type="submit" name="SubmitNumber"/>
         
-    </div>
+ 
     
         </form>
+</div>
+<div class="Number2">
+          <h2>Get the sum of two numbers.</h2>
+
+        <form action="GetNumber2.php" method="get">
+
+            Enter the first number (format : 999999.999): 
+            <input type="text" name="number1" />
+            <br/>
+            <br/>
+            <input type="submit" name="SubmitNumber1"/>
+        
+        </form>
+    </div>
     </main>
 </body>
 </html>

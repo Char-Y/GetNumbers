@@ -2,27 +2,50 @@ html{
     background: #e6e9e9;  
 }
 body{
-    font-family: Arial, Helvetica;     
+    font-family: Arial;
+
 }
 main{
     display: block;
-    margin: auto;
+    margin: 5% auto;
     width: 50%;
-    padding: 20px;  
-    border: 3px solid #FA7C05;
+    padding: 2%;
+  
 }
+
+.Number, .Number2{
+    margin-top: 30px;
+    border: 3px solid #FA7C05;
+    padding: 40px;   
+}
+
 form{
-    margin-top: 45px;
+    margin-top: 0;
 }
 
 input[type=submit]{
-    margin-top: 30px;
+    font-size:12pt;
+    text-align: center;
+    float:right;
     background-color:darkgrey;
+    border-radius: 4px;
     border: none;
-    padding: 9px 7px;
+
 }
+
+input[type=submit]:hover {
+    text-align: center;
+    float:right;
+    cursor: pointer;
+    color: #f1f1f1;
+    background-color: #FA7C05;
+    border-radius: 4px;
+    border: none;
+   
+}
+
 .error{
-    font-size: 16px;
+    font-size: 14pt;
     color: red;
     font-weight: bold;
     width: 50%;
